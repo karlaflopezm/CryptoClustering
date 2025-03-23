@@ -24,7 +24,6 @@ Compute inertia for each k and store the values.
 
 Plot the Elbow Curve to determine the optimal k.
 
-Answer: What is the best k-value for clustering based on the elbow method?
 
 #### 4. Clustering Cryptocurrencies using K-Means
 Train a K-Means model using the optimal k on the scaled data.
@@ -41,12 +40,11 @@ Color: Cluster labels
 
 Hover: "coin_id"
 
+
 #### 5. Dimensionality Reduction with PCA
 Reduce the dataset to three principal components using PCA.
 
 Calculate the explained variance of the three components.
-
-Answer: What percentage of variance is explained by the three principal components?
 
 Create a new DataFrame using the PCA-transformed data, keeping "coin_id" as the index.
 
@@ -73,10 +71,6 @@ Hover: "coin_id"
 #### 8. Final Analysis
 Compare results:
 
-How does clustering change when using the PCA dataset vs. the original dataset?
-
-Answer: What is the impact of using fewer features for K-Means clustering?
-
 Technologies Used
 Python
 
@@ -85,3 +79,11 @@ Pandas
 Scikit-learn (StandardScaler, K-Means, PCA)
 
 hvPlot
+
+![image](https://github.com/user-attachments/assets/7b4f0443-ccd4-431f-b151-ce08e7a1d28a)
+
+![image](https://github.com/user-attachments/assets/9220a614-468e-486d-84e5-2f027b7492e0)
+![image](https://github.com/user-attachments/assets/650c14ac-2712-4381-aa66-62d557d20cbd)
+
+
+
