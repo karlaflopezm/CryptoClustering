@@ -1,4 +1,4 @@
-## Crypto Clustering Project
+## Crypto Clustering Challenge
 Overview
 This project performs clustering on cryptocurrency market data using K-Means and Principal Component Analysis (PCA). The goal is to identify patterns in cryptocurrency price changes over different timeframes and analyze the impact of dimensionality reduction on clustering results.
 
